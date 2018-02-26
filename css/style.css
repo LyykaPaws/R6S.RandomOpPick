@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", Helvetica, Sans-serif;
+  word-spacing: -2px;
+}
+.col-1 {width:8.33%;}
+.col-2 {width:16.66%;}
+.col-3 {width:20%;}
+.col-4 {width:25%;}
+.col-5 {width:33.33%;}
+.col-6 {width:41.66%;}
+.col-7 {width:50%;}
+.col-8 {width:58.33%;}
+.col-9 {width:66.66%;}
+.col-10 {width:75%;}
+.col-11 {width:83.33%;}
+.col-12 {width:91.66%;}
+.col-13 {width:100%;}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  border:1px solid red;
+}
+
+body {
+  background: #808080;
+  font-family: "Helvetica Neue", Helvetica, Sans-serif;
+  color: #fff;
+}
+h1 {
+  color: #fff;
+  font-family: "Helvetica Neue", Helvetica, Sans-serif;
+  font-size: 48px;
+}
+div {
+  color: #fff;
+  font-family: "Helvetica Neue", Helvetica, Sans-serif;
+  font-size: 48px;
+  text-align: center;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+body{
+	margin:0;
+	padding:0;
+	font-family:"arial",heletica,sans-serif;
+	font-size:12px;
+    background: #ffffff url('https://github.com/PwnzLPs/pwnzlps.github.io/raw/master/animatedBGTriangles.gif') repeat 0 0;
+	-webkit-animation: 10s linear 0s normal none infinite animate;
+	-moz-animation: 10s linear 0s normal none infinite animate;
+	-ms-animation: 10s linear 0s normal none infinite animate;
+	-o-animation: 10s linear 0s normal none infinite animate;
+	animation: 10s linear 0s normal none infinite animate;
+ 
+}
+ 
+@-webkit-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-moz-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-ms-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-o-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
